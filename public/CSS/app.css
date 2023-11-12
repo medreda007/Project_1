@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* header */
@@ -220,7 +218,8 @@ main{
     display: block;
     align-items: center;
     align-content: center;
-    padding-top: 40px;
+    padding: 80px 0;
+    padding-inline: 15vw;
 }
 
 b {
@@ -242,7 +241,9 @@ b {
     font-family: 'SF Pro Display', sans-serif;
     font-size: 20px;
 }
-
+.les_statistiques div h1 b{
+    
+}
 .link_in_purplediv {
     color: white;
     align-self: center;
