@@ -126,3 +126,33 @@ b {
     display: flex;
     width: fit-content;
 }
+
+/* first section */
+
+.first-section {
+    display: flex;
+    padding-block-start: 10%;
+    padding-block-end: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h4 {
+    display: inline-block;
+    opacity: 30%;
+}
+
+.img-statique{
+    width: auto;
+    height: auto;
+}
+
+.description {
+    text-indent: 50px;
+}
