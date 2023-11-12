@@ -81,3 +81,48 @@ main{
     height: 30px;
     opacity: 0.4;
 }
+
+/* part saad  */
+
+/* violet part */
+.violet {
+    background-color: #704ce4;
+    height: 400px;
+    display: block;
+    align-items: center;
+    align-content: center;
+    padding-top: 40px;
+}
+
+b {
+    margin-left: 40px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+
+.les_statistiques {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 20px;
+}
+
+.link_in_purplediv {
+    color: white;
+    align-self: center;
+}
+
+.purplediv {
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    display: flex;
+    width: fit-content;
+}
