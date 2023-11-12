@@ -156,3 +156,45 @@ h4 {
 .description {
     text-indent: 50px;
 }
+
+/* second section */
+
+.second-section{
+    height: 50vh;
+    background-color:#f6f6fd;
+    
+
+}
+.input_button{
+    text-align: center;
+
+}
+
+input{
+    width: 22vw;
+    height: 5vh;
+    border: #704ce4 solid ;
+    text-align:center;
+}
+
+.last-button{
+    background-color: #704ce4;
+    color: white;
+    width: 22vw;
+    height: 5vh;
+}
+
+.last-ligne{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+
+}
+
+h2{
+    color: #704ce4;
+}
+
+a{
+    text-decoration: none;
+}
