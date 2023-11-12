@@ -81,6 +81,77 @@ main{
     height: 30px;
     opacity: 0.4;
 }
+/* Youssef's part */
+.section_two{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-inline: 16vw;
+    gap: 70px 70px;
+    background-color: #f6f6fd;
+    padding-bottom: 20vh;
+}
+
+.section_title{
+    margin-top: 10vh;
+    grid-area: 1 / 1 /span 1 / span 3 ;
+    text-align: center;
+}
+.section_title h2{
+    margin-bottom: 3vh;
+    font-size: 22px;
+}
+.section_title p{
+    opacity: .7;
+    font-size: 14px;
+}
+
+.feature-list{
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+    height: 30vh;
+}
+.card-img{
+    font-size: 35px;
+}
+.card-img img{
+    background-color: #ece7fe;
+    border-radius: 50%;
+    width: 34px;
+    padding: 1.3vh 0.7vw;
+}
+.card-text p{
+    margin-top: 3vh;
+    opacity: .6;
+}
+.card-text h3{
+    opacity: .8;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* part saad  */
 
@@ -191,9 +262,7 @@ input{
 
 }
 
-h2{
-    color: #704ce4;
-}
+
 
 a{
     text-decoration: none;
