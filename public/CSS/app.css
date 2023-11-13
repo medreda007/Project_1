@@ -260,40 +260,52 @@ b {
 
 /* first section */
 
-.first-section {
+.simopart1 {
     display: flex;
-    padding-block-start: 10%;
-    padding-block-end: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px
+
 }
 
-.div-icons{
+.icons1{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50%;
+    text-decoration: none;
+    color: black;
+}
+.ico1{
+    font-size: 20px;
+    color: gray;
+    background-color: brown;
+    border-radius: 50%;
+}
+.ico2{
+    font-size: 20px;
+    color: brown;
+    border-radius: 50%;
+}
+.ico3{
+    font-size: 20px;
+    color: rgb(255, 217, 0);
+    border-radius: 50%;
+}
+.p1{
+    margin-left: 10%;
+    color: grey;
+}
+.text1{
     display: flex;
     flex-direction: column;
-    align-items: start;
 }
-
-h4 {
-    display: inline-block;
-    opacity: 30%;
-}
-
-.img-statique{
-    width: auto;
-    height: auto;
-}
-
-.description {
-    text-indent: 50px;
-}
-
 /* second section */
 
 .second-section{
     height: 50vh;
     background-color:#f6f6fd;
-    
+    padding-top: 10vh;
 
 }
 .input_button{
@@ -319,9 +331,11 @@ input{
     display: flex;
     justify-content: space-around;
     margin-left: 70px;
-
+    padding-inline: 13vw;
 }
-
+.footer-links{
+    margin-top: 3.5vh;
+}
 
 
 a{
