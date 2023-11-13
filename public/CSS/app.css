@@ -16,7 +16,9 @@
 a{
     text-decoration: none;
 }
-
+.navigation a:hover{
+    color: #6d48e5;
+}
 .navigation{
     display: flex;
     justify-content:space-between ;
@@ -37,6 +39,12 @@ a{
     text-decoration: none;
     border-radius: 4px;
     
+}
+.signin:hover{
+    background-color: white;
+    border-radius: 6px ;
+    color: #6d48e5;
+    border: #6d48e5 solid 2px;
 }
 /* main */
 main{
@@ -69,11 +77,20 @@ main{
     color: white;
     border-radius: 4px;
 }
+.btn-register:hover{
+    background-color: white;
+    border-radius: 6px ;
+    color: #6d48e5;
+    border: #6d48e5 solid 2px;
+}
 .sponsors-list{
     padding-inline: 23vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.sponsors-list img:hover{
+    opacity: 1;
 }
 .img-sponsor{
     width: 100px; 
